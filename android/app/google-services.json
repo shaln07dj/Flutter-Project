@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "526363689740",
+    "project_id": "pauzapp-project",
+    "storage_bucket": "pauzapp-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526363689740:android:3baac85aa3a75f4865ff29",
+        "android_client_info": {
+          "package_name": "pauzible.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleWrcLZWZH88IOQTLLdGHpaKD21ncpRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

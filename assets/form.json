@@ -1,0 +1,70 @@
+{
+    "name": "Test Form",
+    "displayName": "Form 1",
+    "items": [
+      {
+        "type": "text",
+        "displayName": "Name",
+        "config": {"hintText": "Enter name",
+        "isRequired":true
+     },
+     "validations": {"maxLength":25,"maxWords":2,"isNumeric":false,"isEmail":false,"regex":""}
+        
+      },
+      {
+        "type": "multichoice",
+        "displayName": "Hobbies",
+        "config": {
+          "hintText": "Select your hobbies",
+          "options": ["Reading", "Gaming", "Traveling"]
+        },
+        "validations": {"isRequired": true}
+      },
+      {
+        "type": "radiobutton",
+        "displayName": "Test",
+        "config": {
+          "hintText": "Select your option",
+          "options": ["One", "Two", "Three"]
+        },
+        "validations": {"isRequired": true}
+      },
+      {
+        "type": "dropdown",
+        "displayName": "Gender",
+        "config": {
+          "hintText": "Select your gender",
+          "options": ["Male", "Female", "Other"]
+         
+
+        },
+        "validations": {"isRequired": true}
+      },
+      {
+        "type": "date",
+        "displayName": "Date of Birth",
+        "config": {"hintText": "Enter date of birth",
+        "range":{
+          "firstDay":{
+          "day":11,
+          "month":12,
+          "year":2023
+          },
+          "lastDay":{
+          "day":25,
+          "month":12,
+          "year":2023
+          }
+        }},
+        "validations": {"isRequired": true}
+      },
+      {
+        "type": "multiline",
+        "displayName": "Bio",
+        "config": {"hintText": "Write a short bio","lines":3},
+        "validations": {"isRequired": true,"maxLength":25,"maxWords":5,"isNumeric":false,"isEmail":false,"regex":"","isObsecure":false}
+      }
+    ],
+    "version": 1
+  }
+  
